@@ -1,0 +1,19 @@
+{
+  "name": "svg-techniques",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@georgedoescode/generative-utils": "^1.0.38",
+    "@svgdotjs/svg.js": "^3.1.2",
+    "gsap": "^3.10.4",
+    "nice-color-palettes": "^3.0.0",
+    "prettier": "^2.6.2",
+    "tinycolor2": "^1.4.2"
+  }
+}

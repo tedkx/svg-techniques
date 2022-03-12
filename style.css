@@ -1,0 +1,29 @@
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  background-image: radial-gradient(var(--bg-inner) 0%, var(--bg-outer) 100%);
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 25px;
+  width: 100vw;
+}
+
+.container svg {
+  aspect-ratio: 1;
+  width: 100%;
+}
+
+.regenerate-button {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  background-color: #f5f5f5;
+  padding: 3px 6px;
+  cursor: pointer;
+}
